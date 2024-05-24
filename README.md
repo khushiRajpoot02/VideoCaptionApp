@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Video Caption App
+Introduction
+The Video Caption App is a React.js application that allows users to add captions to a video at specified timespans. Users can input a video URL, define start and end times for the caption, and specify the caption text. Upon submitting the form, the video will play with the captions displayed during the defined timespans.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+Add Captions: Input a video URL, start timespan, end timespan, and caption text.
+Dynamic Display: Captions are displayed over the video during the specified timespans.
+User-friendly Interface: Simple and intuitive form for adding captions.
+Tech Stack
+Frontend: React.js
+Others: HTML, CSS, JavaScript
 
-## Available Scripts
+# Prerequisites
+Before you begin, ensure you have met the following requirements:
 
-In the project directory, you can run:
+Node.js and npm installed
+Getting Started
+Clone the Repository
+bash
+Copy code
+   git clone https://github.com/khushiRajpoot02/VideoCaptionApp.git
+   cd VideoCaptionApp
+   Install Dependencies
+bash
+   Copy code
+    npm install
+    Run the Application
+bash
+   Copy code
+    npm start
+Access the Application
+Once the server is running, you can access the application at http://localhost:3000.
 
-### `npm start`
+# How to Use
+Open the application in your web browser.
+Enter the URL of the video you want to add captions to.
+Specify the start timespan and end timespan for the caption.
+Enter the caption text.
+Submit the form.
+Play the video, and the caption will be displayed over the video during the specified timespan.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Example
+Video URL: https://example.com/video.mp4
+Start Timespan: 00:01:00 (1 minute)
+End Timespan: 00:01:10 (1 minute 10 seconds)
+Caption: This is a sample caption.
+When you play the video, "This is a sample caption." will be displayed from 1:00 to 1:10.
